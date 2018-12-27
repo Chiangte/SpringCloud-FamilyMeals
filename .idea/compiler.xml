@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="1_Eureka" />
-        <module name="1_Eureka-Server" />
-        <module name="2_Eureka-Client" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
         <module name="SpringCloudFamilyMeals" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="1_Eureka-Server" target="1.5" />
+      <module name="1_EurekaServer" target="1.5" />
+      <module name="2_Eureka-Client" target="1.5" />
+      <module name="2_EurekaClient" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
