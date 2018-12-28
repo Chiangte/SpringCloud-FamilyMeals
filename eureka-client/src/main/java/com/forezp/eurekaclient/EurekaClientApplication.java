@@ -12,9 +12,10 @@ import javax.validation.Valid;
 
 /**
  * @author Chiangte
+ * 通过注解@EnableEurekaClient 表明自己是一个eureka-client
  */
 @SpringBootApplication
-@EnableEurekaClient     //通过注解@EnableEurekaClient 表明自己是一个eurekaclient.
+@EnableEurekaClient
 @RestController
 public class EurekaClientApplication {
 
@@ -26,7 +27,7 @@ public class EurekaClientApplication {
 	String port;
 
 	@RequestMapping("/hi")
-	public String home(@RequestParam(value = "name", defaultValue = "forzp") String name){
+	public String home(@RequestParam(value = "name", defaultValue = "forezp") String name){
 		return "Hi" + name + ", I'm  from port: " + port ;
 	}
 }
