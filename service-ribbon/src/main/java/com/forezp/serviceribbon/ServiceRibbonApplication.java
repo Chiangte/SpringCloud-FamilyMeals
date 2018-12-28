@@ -10,10 +10,9 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author Chiangte
- * EnableDiscoveryClient   //向服务中心注册
  */
 @SpringBootApplication
-@EnableEurekaClient
+@EnableEurekaClient      //表明自己是一个eureka-client(服务提供者)
 @EnableDiscoveryClient   //向服务中心注册
 public class ServiceRibbonApplication {
 
