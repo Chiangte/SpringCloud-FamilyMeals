@@ -15,7 +15,7 @@ import javax.validation.Valid;
  * 通过注解@EnableEurekaClient 表明自己是一个eureka-client
  */
 @SpringBootApplication
-@EnableEurekaClient
+@EnableEurekaClient //表明自己是一个eureka-client(服务提供者)
 @RestController
 public class EurekaClientApplication {
 
