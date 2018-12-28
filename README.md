@@ -8,5 +8,5 @@ spring cloud是基于springboot。spring cloud 提供了快速构建分布式系
 * 项目构建工具：Maven
 * JDK版本：jdk1.8
 ### 2.依赖
-*spring Boot版本为2.0.3.RELEASE
-*Spring Cloud版本为Finchley.RELEASE
+* spring Boot版本为2.0.3.RELEASE
+* Spring Cloud版本为Finchley.RELEASE
