@@ -16,6 +16,9 @@
         <module>eureka-server</module>
         <module>eureka-client</module>
         <module>service-ribbon</module>
+        <module>service-feign</module>
+        <module>service-ribbon-hystrix</module>
+        <module>service-feign-hystrix</module>
     </modules>
 
     <parent>

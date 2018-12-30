@@ -9,12 +9,17 @@
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign-hystrix/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/1_Eureka-Server/pom.xml" />
         <option value="$PROJECT_DIR$/2_Eureka-Client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-hystrix/pom.xml" />
       </set>
     </option>
   </component>
